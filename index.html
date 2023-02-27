@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--=============== FAVICON ===============-->
 
-     <!--=============== GOOGLE FONTS ===============-->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <!--=============== GOOGLE FONTS ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
     <!--=============== RESET CSS ===============-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
@@ -22,38 +22,39 @@
     <title>Calculadora</title>
 </head>
 
-    <body>
-        <div id="calculator">
-            <div id="display">
-                <div id="display-top"></div>
-                <div id="display-bottom">
-                    <img src="./public/equals.svg" alt="sinal de igual">
-                    <span>0</span>
-                </div>
-            </div>
-            <div id="keyboard">
-                <button id="buttonShape beforeClear">CE</button>
-                <button id="clear">C</button>
-                <button id="%">%</button>
-                <button id="/">/</button>
-                <button id="7">7</button>
-                <button id="8">8</button>
-                <button id="9">9</button>
-                <button id="*">x</button>
-                <button id="4">4</button>
-                <button id="5">5</button>
-                <button id="6">6</button>
-                <button id="-">-</button>
-                <button id="1">1</button>
-                <button id="2">2</button>
-                <button id="3">3</button>
-                <button id="+">+</button>
-                <button id="negate">+/-</button>
-                <button id="0">0</button>
-                <button id=",">,</button>
-                <button id="=">=</button>
+<body>
+    <div id="calculator">
+        <div id="display">
+            <div id="display-top"></div>
+            <div id="display-bottom">
+                <img src="./public/equals.svg" alt="sinal de igual">
+                <span>0</span>
             </div>
         </div>
-        <script src="./assets/js/script.js"></script>
-    </body>
+        <div id="keyboard">
+            <button id="buttonShape beforeClear">CE</button>
+            <button id="clear">C</button>
+            <button id="%">%</button>
+            <button id="/">/</button>
+            <button id="7">7</button>
+            <button id="8">8</button>
+            <button id="9">9</button>
+            <button id="*" class="ph-x">*</button> 
+            <button id="4">4</button>
+            <button id="5">5</button>
+            <button id="6">6</button>
+            <button id="-">-</button>
+            <button id="1">1</button>
+            <button id="2">2</button>
+            <button id="3">3</button>
+            <button id="+">+</button>
+            <button id="negate">+/-</button>
+            <button id="0">0</button>
+            <button id=",">,</button>
+            <button id="=">=</button>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
 </html>
